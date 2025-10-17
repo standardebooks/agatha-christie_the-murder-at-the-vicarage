@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+q{
+	font-style: italic;
+}
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
@@ -43,3 +47,43 @@ figure img{
 	max-width: 100%;
 }
 /* end figures */
+
+/* Begin Letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* end letters */
+
+/* Begin bespoke styling */
+#chapter-22 blockquote header p{
+	font-size: larger;
+	font-variant: small-caps;
+	margin-bottom: .5em;
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-26 blockquote header p:last-of-type{
+	font-style: italic;
+	margin-bottom: .5em;
+	text-align: left;
+}
+
+#chapter-26 ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#chapter-26 ul li p{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+/* end bespoke */
