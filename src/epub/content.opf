@@ -38,13 +38,15 @@
 		<meta property="term" refines="#subject-2">sh2008113432</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A vicar attempts to unravel the mystery of a murder that took place in his study, while his neighbor—an elderly spinster—takes an interest.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Not much happens in the sleepy rural town of &lt;abbr&gt;St.&lt;/abbr&gt; Mary Mead. But that all changes when Colonel Protheroe, a “pompous old brute,” is murdered while awaiting the Vicar in the vicarage study. The main problem isn’t the paucity of suspects—in this case, there seem to be too many willing to confess to the crime.&lt;/p&gt;
+			&lt;p&gt;The Vicar, who narrates the story, does his best to unravel the mystery himself, as the police seem not to be making a very good job of it. His investigations soon begin to benefit from the observations of his neighbor, a gossipy old spinster by the name of &lt;a href="https://standardebooks.org/collections/miss-marple"&gt;Miss Marple&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;This wasn’t Miss Marple’s first fictional appearance: she had played a part in an &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; short story three years earlier. This is, however, the first novel in which she appears as the amateur sleuth responsible for solving the mystery. Miss Marple went on to become one of Christie’s most enduring and endearing characters, portrayed in many adaptations for television, stage, and film.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/murderatvicarage0000chri_r5o0</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">This transcription matches the 1930 first edition of the book.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Murder_at_the_Vicarage</meta>
