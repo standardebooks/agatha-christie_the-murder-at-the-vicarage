@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/agatha-christie/the-murder-at-the-vicarage</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-01-01T16:00:17Z</dc:date>
+		<meta property="dcterms:modified">2026-01-01T16:00:17Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,17 +38,20 @@
 		<meta property="term" refines="#subject-2">sh2008113432</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
+		<meta id="collection-1" property="belongs-to-collection">Miss Marple</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
 		<dc:description id="description">A vicar attempts to unravel the mystery of a murder that took place in his study, while his neighbor—an elderly spinster—takes an interest.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Not much happens in the sleepy rural town of &lt;abbr&gt;St.&lt;/abbr&gt; Mary Mead. But that all changes when Colonel Protheroe, a “pompous old brute,” is murdered while awaiting the Vicar in the vicarage study. The main problem isn’t the paucity of suspects—in this case, there seem to be too many willing to confess to the crime.&lt;/p&gt;
-			&lt;p&gt;The Vicar, who narrates the story, does his best to unravel the mystery himself, as the police seem not to be making a very good job of it. His investigations soon begin to benefit from the observations of his neighbor, a gossipy old spinster by the name of &lt;a href="https://standardebooks.org/collections/miss-marple"&gt;Miss Marple&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;This wasn’t Miss Marple’s first fictional appearance: she had played a part in an &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; short story three years earlier. This is, however, the first novel in which she appears as the amateur sleuth responsible for solving the mystery. Miss Marple went on to become one of Christie’s most enduring and endearing characters, portrayed in many adaptations for television, stage, and film.&lt;/p&gt;
+			&lt;p&gt;Not much happens in the sleepy rural town of St. Mary Mead—but that all changes when Colonel Protheroe, a “pompous old brute,” is murdered while awaiting the Vicar in the vicarage study. The main problem isn’t the paucity of suspects—in this case, there seem to be too many willing to confess to the crime.&lt;/p&gt;
+			&lt;p&gt;The Vicar, who narrates the story, does his best to unravel the mystery himself, as the police seem not to be making a very good job of it. His investigation soon begins to benefit from the observations of his neighbor, a gossipy old spinster by the name of &lt;a href="https://standardebooks.org/collections/miss-marple"&gt;Miss Marple&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;This wasn’t Miss Marple’s first fictional appearance: she had played a part in an &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; short story three years earlier. Miss Marple went on to become one of Christie’s most enduring and endearing characters, portrayed in many adaptations for television, stage, and film.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/murderatvicarage0000chri_r5o0</dc:source>
 		<meta property="se:production-notes">This transcription matches the 1930 first edition of the book.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">72255</meta>
+		<meta property="se:reading-ease.flesch">77.84</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Murder_at_the_Vicarage</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/agatha-christie_the-murder-at-the-vicarage</meta>
 		<dc:creator id="author">Agatha Christie</dc:creator>
@@ -73,6 +76,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
