@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/agatha-christie/the-murder-at-the-vicarage</dc:identifier>
 		<dc:date>2026-01-01T16:00:17Z</dc:date>
@@ -42,12 +42,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Miss Marple</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:description id="description">A vicar attempts to unravel the mystery of a murder that took place in his study, while his neighbor—an elderly spinster—takes an interest.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A vicar attempts to unravel the mystery of a murder that took place in his study, while his neighbor—an elderly spinster—takes an interest.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Not much happens in the sleepy rural town of St. Mary Mead—but that all changes when Colonel Protheroe, a “pompous old brute,” is murdered while awaiting the Vicar in the vicarage study. The main problem isn’t the paucity of suspects—in this case, there seem to be too many willing to confess to the crime.&lt;/p&gt;
 			&lt;p&gt;The Vicar, who narrates the story, does his best to unravel the mystery himself, as the police seem not to be making a very good job of it. His investigation soon begins to benefit from the observations of his neighbor, a gossipy old spinster by the name of &lt;a href="https://standardebooks.org/collections/miss-marple"&gt;Miss Marple&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;This wasn’t Miss Marple’s first fictional appearance: she had played a part in an &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; short story three years earlier. Miss Marple went on to become one of Christie’s most enduring and endearing characters, portrayed in many adaptations for television, stage, and film.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/bwb_S0-AHO-117</dc:source>
 		<meta property="schema:wordCount">70129</meta>
