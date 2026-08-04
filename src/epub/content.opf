@@ -42,7 +42,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Miss Marple</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:abstract>A vicar attempts to unravel the mystery of a murder that took place in his study, while his neighbor—an elderly spinster—takes an interest.</dc:abstract>
+		<meta property="schema:abstract">A vicar attempts to unravel the mystery of a murder that took place in his study, while his neighbor—an elderly spinster—takes an interest.</meta>
 		<dc:description>
 			&lt;p&gt;Not much happens in the sleepy rural town of St. Mary Mead—but that all changes when Colonel Protheroe, a “pompous old brute,” is murdered while awaiting the Vicar in the vicarage study. The main problem isn’t the paucity of suspects—in this case, there seem to be too many willing to confess to the crime.&lt;/p&gt;
 			&lt;p&gt;The Vicar, who narrates the story, does his best to unravel the mystery himself, as the police seem not to be making a very good job of it. His investigation soon begins to benefit from the observations of his neighbor, a gossipy old spinster by the name of &lt;a href="https://standardebooks.org/collections/miss-marple"&gt;Miss Marple&lt;/a&gt;.&lt;/p&gt;
